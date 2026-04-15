@@ -1,26 +1,26 @@
 {
 "id": "7738e6f8-116b-4b9d-b34f-82ba4d680826",
   "name": "Dev_BC_Fix",
-  "publisher": "FJH Sistemas de Informação eireli (Grvppe)",
-  "version": "25.6.0.6",
+  "publisher": "AlfaPeople",
+  "version": "27.0.0.6",
   "brief": "Additional features and reports Fix",
   "description": "Additional features and reports Fix for Microsoft Dynamics 365 Business Central, Microsoft Dynamics NAV",
-  "privacyStatement": "https://www.grvppe.com/politicas-de-privacidade",
-  "EULA": "https://www.grvppe.com",
-  "help": "https://www.grvppe.com/dynamics-br-loc-current-version/",
-  "url": "https://www.grvppe.com",
-  "logo": "./logo/logo_grvppe_240x240_branco.png",
+  "privacyStatement": "https://www.AlfaPeople.com/politicas-de-privacidade",
+  "EULA": "https://www.AlfaPeople.com",
+  "help": "https://www.AlfaPeople.com/dynamics-br-loc-current-version/",
+  "url": "https://www.AlfaPeople.com",
+  "logo": "logo/Logo_216.png",
   "dependencies": [
     {
       "id": "ce3ff378-07ed-4d4e-a30b-2374b348ab75", 
       "name": "CoreLatam", 
-      "publisher": "FJH Sistemas de Informação eireli (Grvppe)",
-      "version": "25.6.120.150"
+ "publisher": "AlfaPeople",
+      "version": "27.0.120.300"
       }
   ],
   "screenshots": [],
-  "platform": "25.0.0.0",
-  "application": "25.0.0.0",
+  "platform": "27.0.0.0",
+  "application": "27.0.0.0",
   "idRanges": [
     {
       "from": 70100,
@@ -32,7 +32,7 @@
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
   },
-  "runtime": "14.0",
+  "runtime": "16.0",
   "features": [
     "NoImplicitWith"
   ]
