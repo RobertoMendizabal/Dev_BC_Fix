@@ -1,0 +1,57 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+/*         {
+            "name": "OXXEAN_UAT",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "TEST_PRODUCCION",
+            "schemaUpdateMode": "ForceSync",
+            "startupObjectId": 70100,//7333, //9305,
+           // "startupCompany": "03 - Marina Oxxean Puerto Montt SpA.",
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "34dbdd58-057c-4f60-a2ab-f648c44a555b"            
+        }, */
+        {
+            "name": "PDT LATAM",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://10.32.0.5:80/LOCLT_PDT",
+            "serverInstance": "LOCLT_PDT",
+            "schemaUpdateMode": "ForceSync",
+            "startupObjectId": 70100,//7333, //9305,
+            //"startupCompany": "TECNOBACK",//"STG CL",
+            "authentication": "UserPassword",
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default"
+        }, 
+            {
+            "name": "HML LATAM",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://10.32.0.5:80/LOCLT_HML",
+            "serverInstance": "LOCLT_HML",
+            "schemaUpdateMode": "ForceSync",
+            "startupObjectId": 70100,//7333, //9305,
+            //"startupCompany": "TECNOBACK",//"STG CL",
+            "authentication": "UserPassword",
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default"
+        }    
+    ]
+}

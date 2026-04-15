@@ -1,0 +1,39 @@
+{
+"id": "7738e6f8-116b-4b9d-b34f-82ba4d680826",
+  "name": "Dev_BC_Fix",
+  "publisher": "FJH Sistemas de Informação eireli (Grvppe)",
+  "version": "25.6.0.6",
+  "brief": "Additional features and reports Fix",
+  "description": "Additional features and reports Fix for Microsoft Dynamics 365 Business Central, Microsoft Dynamics NAV",
+  "privacyStatement": "https://www.grvppe.com/politicas-de-privacidade",
+  "EULA": "https://www.grvppe.com",
+  "help": "https://www.grvppe.com/dynamics-br-loc-current-version/",
+  "url": "https://www.grvppe.com",
+  "logo": "./logo/logo_grvppe_240x240_branco.png",
+  "dependencies": [
+    {
+      "id": "ce3ff378-07ed-4d4e-a30b-2374b348ab75", 
+      "name": "CoreLatam", 
+      "publisher": "FJH Sistemas de Informação eireli (Grvppe)",
+      "version": "25.6.120.150"
+      }
+  ],
+  "screenshots": [],
+  "platform": "25.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 70100,
+      "to": 70149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
