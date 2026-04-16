@@ -1,5 +1,5 @@
 {
-"id": "7738e6f8-116b-4b9d-b34f-82ba4d680826",
+  "id": "7738e6f8-116b-4b9d-b34f-82ba4d680826",
   "name": "Dev_BC_Fix",
   "publisher": "AlfaPeople",
   "version": "27.0.0.6",
@@ -12,11 +12,11 @@
   "logo": "logo/Logo_216.png",
   "dependencies": [
     {
-      "id": "ce3ff378-07ed-4d4e-a30b-2374b348ab75", 
-      "name": "CoreLatam", 
- "publisher": "AlfaPeople",
+      "id": "ce3ff378-07ed-4d4e-a30b-2374b348ab75",
+      "name": "CoreLatam",
+      "publisher": "AlfaPeople",
       "version": "27.0.120.300"
-      }
+    }
   ],
   "screenshots": [],
   "platform": "27.0.0.0",
